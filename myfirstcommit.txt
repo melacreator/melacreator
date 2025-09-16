@@ -1,0 +1,35 @@
+Zusammenfassung: Git
+Exkurs:
+Es gibt zwei Arten von Versionskontrollsystemen / Versionierungssytemen / 
+Versionsverwaltungssystemen:
+1. Zentrale Systeme: Hierbei gibt es einen zentralen Server, der das offizielle Repository 
+enthält. Alle Entwickler:innen holen die Dateien von dort (checkout) und laden Änderungen 
+wieder hoch (commit).
+2. Verteilte Systeme / DVCS (Distributed Version Control System): Jede:r 
+Entwickler:in hat eine vollständige Kopie des Repositories inkl. aller Historien. Änderungen
+werden lokal vorgenommen (commit).
+Begriffe:
+Git: verteiltes Versionskontrollsystem, das Dateien und deren Historie speichert, um Änderungen 
+nachzuvollziehen und gemeinsames Arbeiten an Projekten zu ermöglichen.
+Repository (Repo): Speicherort eines Projekts, in dem Git alle Dateien und deren Versionshistorie 
+verwaltet.
+Commit: jeweilige Änderung wird als „Schnappschuss“ gespeichert.
+Terminal-Befehle:
+sudo apt install git – installiert Git
+git config --global user.email "meine.email@beispiel.com" – gehört zur Git-Konfiguration, mit 
+der E-Mail-Adresse festgelegt wird
+git config --global user.name "Mein Name" – gehört auch zur Git-Konfig, mit der Name 
+festgelegt wird
+git init – erstellt ein neues Git-Repository in einem bestehenden Verzeichnis 
+git status – zeigt aktuellen Zustand des Git-Repositories an
+git add [Datei] – Änderungen von Dateien werden in die Staging Area verschoben
+→ eine bestimmte Datei vormerken: git add a.txt
+→ mehrere Dateien auf einmal: git add a.txt b.txt c.txt
+→ alle Änderungen im Projekt vormerken: git add .
+git commit – speichert die in der Staging Area vorgemerkten Änderungen dauerhaft in der 
+Versionshistorie des Repositories
+→ mit Nachricht: git commit -m "Text A hinzugefügt"
+→ ohne -m: öffnet einen Editor (z. B. nano), in dem eine Nachricht eingegeben werden kann
+→ alle vorgemerkten Änderungen direkt comitten: git commit -am "Alle Texte hinzugefügt"
+git log – zeigt die Historie aller Commits im aktuellen Repository an
+.git-Ordner – enthält die komplette Git-Historie (unsichtbar im Projektordner)
