@@ -8,7 +8,6 @@ Nicht als Meister trat ich ein, sondern als Novize –
 mit zitternder Hand, doch festem Willen,  
 die Mysterien des Codes zu entschlüsseln.
 
----
 
 ## 📜 Glaubenssätze des Ordens
 
@@ -25,7 +24,6 @@ Die Gebote, die ich ehre:
 - **Ein Fehler sei kein Makel, sondern eine Prophezeiung – und somit zu deuten.**
 - **Automatisierung ist die Alchemie der Neuzeit.**
 
----
 
 ## 🔍 Derzeitige Studien
 
@@ -36,7 +34,6 @@ und beschwöre ab und an die Geister von Figma.
 Meine Werke sind unvollkommen, doch wachsend –  
 wie eine Bibliothek, die nie vollendet wird.
 
----
 
 ## 📖 Artefakte & Konstruktionen
 
@@ -47,8 +44,6 @@ Die Meisten im Schatten der Zukunft verborgen.
 Wer sie studieren mag, sei willkommen.  
 Wer sie nutzen kann, sei gesegnet.  
 Wer sie verbessern will – der trete ein in den Kreis der Mitwirkenden.
-
----
 
 ## 📬 Boten & Kontakt
 
